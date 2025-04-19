@@ -59,6 +59,8 @@ rails g migration add_name_to_user name
 
 rails g devise:views
 
+}%{ enable namfe field, add name field in form
+
 }%{ add "edit account" to dropdown, add name field to form in user views
 
 rails g devise:controllers users
