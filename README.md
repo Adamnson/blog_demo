@@ -4,16 +4,21 @@ Intro to Ruby on Rails 7 Fullstack Tutorial | Rails for Beginners Part 1
 https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb
 
 rails new blog_demo -c bootstrap
+
 rails g controller pages home about 
+
 }%{ update root path, update content, styling
+
 rails g scaffold Posts title body:string
+
 rails db:migrate
-}%{ create posts, seeds, styling
-rails db:seed
+
+}%{ create posts, seeds, styling__
+rails db:seed__
 }%{ link blog to home, 
-rails g migration add_views_to_posts views:integer
-}%{ set default:0 in migration file
-rails db:migrate
+rails g migration add_views_to_posts views:integer__
+}%{ set default:0 in migration file__
+rails db:migrate__
 }%{ update show in posts to update views, add views to show.html.erb 
 }%{ add devise to gemfile
 bundle install
