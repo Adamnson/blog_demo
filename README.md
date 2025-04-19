@@ -1,8 +1,9 @@
 # README
 
 Intro to Ruby on Rails 7 Fullstack Tutorial | Rails for Beginners Part 1
-https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb
+[Intro to Devise in Rails 7 | Ruby on Rails for Beginners Part 2](https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb)
 
+https://youtu.be/m3uhldUGVes?si=hy4EO5Zk_94DP5vd
 rails new blog_demo -c bootstrap
 
 rails g controller pages home about 
