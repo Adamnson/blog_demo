@@ -5,7 +5,7 @@ class Post < ApplicationRecord
   has_many :comments, dependent: :destroy
 
   def self.ransackable_attributes(auth_object = nil)
-    [ "body", "title" ] # , "user_email", "user_name" ]
+    [ "body", "title" ]
   end
 
   def self.ransackable_associations(auth_object = nil)
